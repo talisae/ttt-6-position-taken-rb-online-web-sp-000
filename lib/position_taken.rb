@@ -1,8 +1,7 @@
-def position_taken? (board, index)
+def position_taken? (board, index = "X")
   index == " "
     return false
-  index == "X"
+  index == "X" || 
     return true
-  index == "O"
-    return true
+
 end

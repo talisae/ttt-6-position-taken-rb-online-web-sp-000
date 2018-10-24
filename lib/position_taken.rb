@@ -1,4 +1,4 @@
-def position_taken? (board, index)
+def position_taken? (board, index = "X")
   board[index] != " "
     return false
   board[index] == "X" || board[index] == "O"
